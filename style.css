@@ -1,0 +1,56 @@
+body {
+    height: 50px;
+    width: 200px;
+    overflow-y: auto;
+   
+}
+
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4px 4px 4px 4px;
+    column-gap: 4px;
+    
+}
+
+input{
+    width: 195px;
+    border-radius: 45px;
+    border-width: 2.5px;
+    border-color: #26adf5;
+}
+
+button{
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#myButton {
+    background-color: #ffffff;
+    border-width: 2.5px;
+    border-color:  #26adf5;
+    color: #26adf5;
+}
+
+#screenshot {
+    background-color: #ffffff;
+    border-width: 2.5px;
+    border-color:  #26adf5;
+    color:  #26adf5;
+    
+}
+
+#myButton:hover, #screenshot:hover {
+    background-color: #26adf5;
+    color: #ffffff;
+}
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.para{
+    position: relative;
+    left: 25%;   
+}
+
